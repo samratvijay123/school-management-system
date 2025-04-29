@@ -1,0 +1,68 @@
+:root {
+    --background-color: rgba(143, 142, 152, 0.57);
+    --text-color: black;
+    --form-color: rgba(177, 202, 219, 0.779);
+    --btn-color: green;
+    --body-color: white;
+    --icons-color: rgb(194, 175, 35);
+    --footer-backgroundcolor: rgb(33, 37, 72, 1);
+}
+.table {
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.navigation_bar a {
+    color: var(--text-color);
+}
+
+.navigation_bar a:hover {
+
+    background-color: var(--btn-color);
+    color: var(--body-color);
+}
+
+.dropdown.dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    top: 100%;
+    display: block;
+    margin-top: 0.125em;
+}
+
+/* not header file  */
+.hover_div img {
+    height: 30vh;
+    width: 100%;
+}
+
+.hover_div,
+.hover_div img {
+    overflow: hidden;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.hover_div:hover,
+.hover_div img:hover {
+    transform: scale(0.9);
+
+}
+
+.hover_div a {
+    color: btn;
+}
+
+.bor_hover:hover {
+    border: 1px solid green;
+}
+
+.bor_hover button {
+    border: 2px solid transparent;
+}
+
+.button_color a {
+    border: 2px solid transparent;
+}
